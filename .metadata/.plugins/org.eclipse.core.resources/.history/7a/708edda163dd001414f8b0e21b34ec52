@@ -1,0 +1,60 @@
+package com.example.thelotter;
+
+
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+
+public class Test_Buttons extends Activity {
+	class Layout{
+		public Layout(){
+//			
+//			btn1 = (Button)findViewById(R.id.btn1);
+//			btn2 = (Button)findViewById(R.id.btn2);
+//			btn3 = (Button)findViewById(R.id.btn3);
+//			btn4 = (Button)findViewById(R.id.btn4);
+//			btnHistory = (Button)findViewById(R.id.btnHistory);
+//			btnRules = (Button)findViewById(R.id.btnRules);
+//			btnSpace = (Button)findViewById(R.id.btnSpace);
+//			btnAbout = (Button)findViewById(R.id.btnAbout);
+//			
+//			txt1 = (TextView)findViewById(R.id.txt1);
+//			
+//			imgGarely = (ImageView)findViewById(R.id.imgGarely);
+//			
+//			
+//			
+//
+//		}
+//		Button btn1,btn2,btn3,btn4,btnHistory,btnRules,btnSpace,btnAbout;
+//		TextView txt1;
+//		ImageView imgGarely;
+//		
+//		
+	}
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+//	   @Override
+//	    protected void onCreate(Bundle savedInstanceState) {
+//	        super.onCreate(savedInstanceState);
+//	        setContentView(R.layout.activity_main);
+//	        
+//	    }
+//
+//}

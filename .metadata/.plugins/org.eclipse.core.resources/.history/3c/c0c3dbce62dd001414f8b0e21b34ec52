@@ -1,0 +1,193 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.thelotter.MainActivity" >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   	android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="29dp" >
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="5dp"
+                android:text="Start next Prize !"
+                android:textColor="#59042F"
+                android:textStyle="italic" />
+
+            <DigitalClock
+                android:id="@+id/digitalClock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:textAlignment="center"
+                android:textColor="#0E0040"
+                android:textSize="25sp"
+                android:textStyle="italic" 
+            	/>
+
+        </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" >
+
+             <ImageView
+                 android:id="@+id/imgGarely"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:background="@drawable/p" />
+
+        </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="156dp"
+             android:background="@drawable/f">
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_marginBottom="0dp"
+                 android:layout_marginLeft="0dp"
+                 android:layout_marginRight="0dp"
+                 android:layout_weight="1"
+                 android:orientation="horizontal" >
+
+                 <Button
+                     android:id="@+id/btn1"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginLeft="8dp"
+                     android:layout_marginRight="0dp"
+                     android:layout_marginTop="8dp"
+                     android:layout_weight="1"
+                     android:background="@drawable/buttons"
+                     android:paddingRight="0dp"
+                     android:text="Play New" />
+
+                 <Button
+                     android:id="@+id/btn2"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginLeft="0dp"
+                     android:layout_marginRight="8dp"
+                     android:layout_marginTop="8dp"
+                     android:layout_weight="1"
+                     android:background="@drawable/buttons"
+                     android:paddingLeft="0dp"
+                     android:text="text2" />
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_marginLeft="0dp"
+                 android:layout_marginRight="0dp"
+                 android:layout_marginTop="0dp"
+                 android:layout_weight="1"
+                 android:orientation="horizontal" >
+
+                 <Button
+                     android:id="@+id/btn3"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginBottom="8dp"
+                     android:layout_marginLeft="8dp"
+                     android:layout_weight="1"
+                     android:background="@drawable/buttons"
+                     android:onClick="@string/hello_world"
+                     android:padding="0dp"
+                     android:text="Text3" />
+
+                 <Button
+                     android:id="@+id/btn4"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginBottom="8dp"
+                     android:layout_marginRight="8dp"
+                     android:layout_weight="1"
+                     android:background="@drawable/buttons"
+                     android:padding="0dp"
+                     android:text="text4" />
+             </LinearLayout>
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="53dp"
+             android:background="@drawable/b"
+             android:orientation="horizontal" >
+
+             <Button
+                 android:id="@+id/btnHistory"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_margin="0dp"
+                 android:layout_weight="1"
+                 android:background="@style/AppBaseTheme"
+                 android:padding="0dp"
+                 android:text="History all Winers"
+                 android:textColor="#10A6BE"
+                 android:textSize="15sp" />
+
+             <Button
+                 android:id="@+id/btnRules"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_margin="0dp"
+                 android:layout_weight="1"
+                 android:background="@style/AppBaseTheme"
+                 android:padding="0dp"
+                 android:text="Rules Game"
+                 android:textColor="#10A6BE"
+                 android:textSize="15sp" />
+
+             <Button
+                 android:id="@+id/btnSpace"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_margin="0dp"
+                 android:layout_weight="1"
+                 android:background="@style/AppBaseTheme"
+                 android:padding="0dp"
+                 android:text="_______"
+                 android:textColor="#10A6BE"
+                 android:textSize="15sp" />
+
+             <Button
+                 android:id="@+id/btnAbout"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_margin="0dp"
+                 android:layout_weight="1"
+                 android:background="@style/AppBaseTheme"
+                 android:padding="0dp"
+                 android:text="About us"
+                 android:textColor="#10A6BE"
+                 android:textSize="15sp" />
+         </LinearLayout>
+
+    </LinearLayout>
+    
+</LinearLayout>
+    
+</RelativeLayout>

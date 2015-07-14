@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">thelotter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="account">Account</string>
+    <string name="rules">Rules</string>
+    <string name="about_as">About AS</string>
+    <string name="quit">Quit</string>
+
+</resources>

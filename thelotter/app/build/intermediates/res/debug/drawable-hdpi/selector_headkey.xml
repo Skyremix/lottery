@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item >
+        <shape android:shape="oval">
+            <corners android:radius="2dp"/>
+            <solid android:color="#D4BF19"/>
+        </shape>
+    </item>
+
+</selector>
+<!-- From: file:/D:/Android/lotery/lotery/thelotter/app/src/main/res/drawable-hdpi/selector_headkey.xml -->

@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.thelotter.MainActivity" >
+
+
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/login"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"
+        android:title="Account"/>
+    <item
+        android:id="@+id/rules"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="Rules"/>
+    <item
+        android:id="@+id/about_as"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="About AS"/>
+    <item
+        android:id="@+id/quit"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="Quit"/>
+
+</menu><!-- From: file:/D:/Android/lotery/lotery/thelotter/app/src/main/res/menu/main.xml -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item >
+        <shape android:shape="rectangle">
+            <corners android:radius="30dp"/>
+            <solid android:color="#E5DCA8"/>
+            <stroke android:width="2dp" android:color="#E59B1B"/>
+        </shape>
+    </item>
+
+</selector>
+<!-- From: file:/D:/Android/lotery/lotery/thelotter/app/src/main/res/drawable-hdpi/selector_style.xml -->

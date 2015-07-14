@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;thelotter/res/drawable-hdpi/selector_offkey.xml&apos; to &apos;selector_onkey.xml&apos;" description="Rename resource &apos;selector_offkey.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/drawable-hdpi/selector_offkey.xml" name="selector_onkey.xml" stamp="1429913440310" updateReferences="true"/>
+</session>

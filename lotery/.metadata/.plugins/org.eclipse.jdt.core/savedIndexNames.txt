@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+D:\Android\lotery\lotery\lotery\.metadata\.plugins\org.eclipse.jdt.core
+3898503468.index
+646126120.index
+1109201709.index
